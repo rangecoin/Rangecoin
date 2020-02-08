@@ -1,0 +1,36 @@
+<shortcuts>
+	<skipIfNotSupported/>
+	<defaultCurrentUser/>
+	<programGroup defaultName="Rangecoin" location="startMenu"/>
+	<shortcut
+		name="Rangecoin Server"
+		target="$INSTALL_PATH\Rangecoin.exe"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Start Rangecoin server"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no"
+		runAsAdministrator="true">
+	</shortcut>	
+	<shortcut
+		name="Rangecoin Wallet"
+		target="http://localhost:8286/index.html"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Launch Rangecoin wallet in browser"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no">
+	</shortcut>	
+</shortcuts>
